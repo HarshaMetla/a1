@@ -14,7 +14,7 @@ jobs:
         uses: dependency-check/Dependency-Check_Action@main
         id: Depcheck
         with:
-          project: 'a1'
+          project: 'camelot_extraction.py'
           path: '.'
           format: 'HTML'    
           args: >
